@@ -12,7 +12,9 @@ export default function TechnologiesSection () {
             <TitleComponent title={TECHNOLOGIES.TITLE}></TitleComponent>
             <p className='mb-5 text-md'>{ TECHNOLOGIES.DESCRIPTION }</p>
             <div className={`grid grid-cols-2 grid-rows-${technologies.length / 2} gap-4`}>
-                <SkillsComponent technologies={technologies} ></SkillsComponent>
+                {
+                    technologies.map((tec) => <SkillsComponent technology={tec} ></SkillsComponent>)
+                }
             </div>
         </div>
     )

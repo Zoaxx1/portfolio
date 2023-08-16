@@ -4,5 +4,5 @@ export interface TechnologiesSkills {
 }
 
 export interface ChildPropsTechnologies {
-    technologies: TechnologiesSkills[]
+    technology: TechnologiesSkills
 }
