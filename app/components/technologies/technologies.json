@@ -1,0 +1,50 @@
+[
+    {
+        "skill": "Javascript",
+        "level": 5
+    },
+    {
+        "skill": "React",
+        "level": 5
+    },
+    {
+        "skill": "Typescript",
+        "level": 5
+    },
+    {
+        "skill": "AngularJS",
+        "level": 5
+    },
+    {
+        "skill": "Jira",
+        "level": 4
+    },
+    {
+        "skill": "Github",
+        "level": 4
+    },
+    {
+        "skill": "Git",
+        "level": 4
+    },
+    {
+        "skill": "Angular",
+        "level": 3
+    },
+    {
+        "skill": "TailwindCSS",
+        "level": 4
+    },
+    {
+        "skill": "Ruby On Rails",
+        "level": 3
+    },
+    {
+        "skill": "Bootstrap",
+        "level": 3
+    },
+    {
+        "skill": "Figma",
+        "level": 2
+    }
+]
