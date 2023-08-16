@@ -1,9 +1,9 @@
 import { TECHNOLOGIES } from './translates/es.json';
-import Technologies from './technologies.json';
+import Technologies from './data/technologies.json';
 import { TechnologiesSkills } from './interfaces/interfaces';
 import SkillsComponent from './components/skills_component';
 
-export default function TechnologiesComponent () {
+export default function TechnologiesSection () {
     const technologies: TechnologiesSkills[] = Technologies;
 
     return (
