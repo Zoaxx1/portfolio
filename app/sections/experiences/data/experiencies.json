@@ -4,7 +4,6 @@
         "company": "Wisboo",
         "start_date": "2021 Jun",
         "last_date": "2023 Jun",
-        "is_working": false,
         "description": ["En Wisboo, asumí roles clave como Engineer Manager y Fullstack Developer. Me enfoqué en mejorar una plataforma educativa usando AngularJS y Ruby on Rails, especialmente en áreas de monetización y procesos de pago. Lideré el equipo 'Célula Money', gestionando sprints, tareas en Jira y brindando perspectiva técnica al equipo de Producto.", "Adicionalmente, lideré un equipo en la implementación exitosa de una billetera virtual en colaboración con dLocal, tras un año de desarrollo. Este logro demostró mi habilidad para liderar proyectos complejos y llevarlos a cabo en equipo. Mi tiempo en Wisboo no solo impulsó la plataforma, sino también mi capacidad de liderazgo y solución de desafíos técnicos."]
     },
     {
@@ -12,7 +11,6 @@
         "company": "Ohmunity",
         "start_date": "2020 Oct",
         "last_date": "2021 Apr",
-        "is_working": false,
         "description": "En Ohmunity, una startup enfocada en conectar profesores de Yoga con estudiantes de forma virtual a través de una app, participé en el desarrollo del producto. Mi enfoque se centró en la app móvil, utilizando Typescript y Apache Cordova para adaptarla a dispositivos móviles. Además, trabajé con Tailwind para el diseño de los estilos y utilicé Hasura como base de datos para el proyecto. Esta experiencia me permitió contribuir al desarrollo de la app, garantizando una experiencia fluida y atractiva para usuarios en el mercado de los Estados Unidos."
     }
 ]
