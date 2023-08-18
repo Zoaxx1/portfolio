@@ -17,12 +17,12 @@ export default function NavbarComponent () {
   return (
     <nav className="fixed left-0 top-0 bottom-0 w-100 flex flex-col items-start pl-2 pt-6">
       <button className={ `${stylesButtons.default} ${stylesButtons.selected}` }>Perfil</button>
+      <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Contacto</button>
       <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Habilidades</button>
       <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Experiencia</button>
       <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Educación</button>
-      <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Proyectos</button>
-      <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Contacto</button>
-      <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Hobbies</button>
+      {false && <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Proyectos</button>}
+      {false && <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Hobbies</button>}
     </nav>
   );
 };
