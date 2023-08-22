@@ -7,7 +7,7 @@ export default function EducationSection () {
     const educations: Description[] = Educations;
 
     return (
-        <div>
+        <div id='education'>
             <TitleComponent title={'Educación'}></TitleComponent>
             <hr className="opacity-10 mb-4"/>
             { educations.map((ed,i) => <DescriptionComponent key={i + ed.title} description={ed}></DescriptionComponent>)}

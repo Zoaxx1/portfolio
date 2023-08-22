@@ -27,8 +27,8 @@ export default function ContactSection () {
     }
     ]
 
-    return (
-        <div>
+    return(
+        <div id='contact'>
             <TitleComponent title={'Contacto'}></TitleComponent>
             <div className='grid grid-cols-2 gap-4'>
                 {

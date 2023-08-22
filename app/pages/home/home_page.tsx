@@ -11,6 +11,7 @@ export default function HomePage () {
             <ContactSection></ContactSection>
             <TechnologiesSection></TechnologiesSection>
             <ExperienceSection></ExperienceSection>
+            <div id='education'></div>
             <EducationSection></EducationSection>
         </div>
     )

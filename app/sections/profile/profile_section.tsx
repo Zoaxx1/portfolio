@@ -3,7 +3,7 @@ import OverviewComponent from './components/overview/overview_component';
 
 export default function ProfileSection () {
     return (
-        <div>
+        <div id='profile'>
             <div className='mb-8'>
                 <HeadComponent></HeadComponent>
             </div>

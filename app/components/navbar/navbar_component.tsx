@@ -1,4 +1,11 @@
-import React from 'react';
+'use client'
+
+import React, { useEffect, useState } from 'react';
+
+interface Button {
+  name: string,
+  idElement: string
+}
 
 interface StylesNavBarButtons {
   default: string,
@@ -13,16 +20,78 @@ const stylesButtons: StylesNavBarButtons = {
 }
 
 export default function NavbarComponent () {
+  const [activeButton, setActiveButton] = useState<number>()
+
+  // add Projects and Hobbies
+  const buttons: Button[] = [{
+    name: 'Perfil',
+    idElement: 'profile'
+  },
+  {
+    name: 'Contacto',
+    idElement: 'contact'
+  },
+  {
+    name: 'Habilidades',
+    idElement: 'skills'
+  },
+  {
+    name: 'Experiencia',
+    idElement: 'experiencie'
+  },
+  {
+    name: 'Educación',
+    idElement: 'education'
+  }];
+
+  const setStyle = (index: number): string=> {
+    return index === activeButton ? stylesButtons.selected : stylesButtons.unselected;
+  }
+
+  const scrollUser = (i:number, idElement: string): void => {
+    setActiveButton(i);
+    const element = document.getElementById(idElement);
+    if(element){
+      setTimeout(() => {
+        element.scrollIntoView({behavior: 'instant'});
+      }, 0)
+    }
+  }
+
+  useEffect(()=>{
+    const handleScroll = () => {
+      let activeButtonIndex = -1;
+      ['profile', 'contact', 'skills', 'experiencie', 'education'].forEach((idElement, i) => {
+        const element = document.getElementById(idElement);
+        if (element) {
+          const rect = element.getBoundingClientRect();
+          if (rect.top >= 0 && rect.bottom <= window.innerHeight) {
+            activeButtonIndex = i;
+          }
+        }
+      });
+      if (activeButtonIndex !== -1) {
+        setActiveButton(activeButtonIndex);
+      }
+    };
+
+    handleScroll();
+
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  },[]);
 
   return (
     <nav className="fixed left-0 top-0 bottom-0 w-100 flex flex-col items-start pl-2 pt-6">
-      <button className={ `${stylesButtons.default} ${stylesButtons.selected}` }>Perfil</button>
-      <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Contacto</button>
-      <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Habilidades</button>
-      <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Experiencia</button>
-      <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Educación</button>
-      {false && <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Proyectos</button>}
-      {false && <button className={ `${stylesButtons.default} ${stylesButtons.unselected}` }>Hobbies</button>}
+      { buttons.map(({name, idElement}, i) => (
+        <button
+        key={idElement}
+        className={ `${stylesButtons.default} ${setStyle(i)}` }
+        onClick={() => scrollUser(i, idElement)}>
+          {name}
+        </button>)) }
     </nav>
   );
 };

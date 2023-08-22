@@ -7,7 +7,7 @@ export default function ExperienceSection () {
     const experiences: Description[] = Experiencies
 
     return (
-        <div>
+        <div id='experiencie'>
             <TitleComponent title={'Experiencia Laboral'}></TitleComponent>
             <hr className="opacity-10 mb-4"/>
             {
