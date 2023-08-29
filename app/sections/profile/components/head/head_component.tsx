@@ -1,3 +1,5 @@
+import Me from '@assets/me.jpg'
+
 export default function HeadComponent () {
     return (
         <div className="flex items-center justify-between container">
@@ -6,7 +8,6 @@ export default function HeadComponent () {
                 <p className="text-2xl font-semibold opacity-95">Desarrollador Web</p>
                 <p className="opacity-75 font-semibold">React | Typescript | Angular | AngularJS | Ruby On Rails </p>
             </div>
-            <div className="w-32 h-32 bg-blue-600 rounded-full">a</div>
         </div>
     )
 }

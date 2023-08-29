@@ -25,7 +25,8 @@
       "@functions/*": ["./app/functions/*"],
       "@interfaces/*": ["./app/interfaces/*"],
       "@pages/*": ["./app/pages/*"],
-      "@sections/*": ["./app/sections/*"]
+      "@sections/*": ["./app/sections/*"],
+      "@assets/*": ["./app/assets/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
