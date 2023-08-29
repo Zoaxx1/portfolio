@@ -1,9 +1,9 @@
-import NavBarComponent from "@components/navbar/navbar_component";
+import NavBarComponent from "@components/navbar/navbarComponent";
 import ProfileSection from "@sections/profile/profile_section";
-import TechnologiesSection from "@sections/technologies/technologies_section";
-import ExperienceSection from "@sections/experiences/experiencies_section";
-import EducationSection from "@sections/education/education_section";
-import ContactSection from "@sections/contact/contact_section";
+import TechnologiesSection from "@sections/technologies/technologiesSection";
+import ExperienceSection from "@sections/experiences/experienciesSection";
+import EducationSection from "@sections/education/educationSection";
+import ContactSection from "@sections/contact/contactSection";
 
 
 export default function Home() {

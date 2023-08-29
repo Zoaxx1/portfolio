@@ -1,7 +1,7 @@
-import TitleComponent from "@components/title/title_component"
+import TitleComponent from "@components/title/titleComponent"
 import Educations from './data/education.json';
 import { Description } from '@interfaces/description';
-import DescriptionComponent from "@components/description/description_component"
+import DescriptionComponent from "@components/description/descriptionComponent"
 
 export default function EducationSection () {
     const educations: Description[] = Educations;

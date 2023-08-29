@@ -1,5 +1,5 @@
-import HeadComponent from './components/head/head_component';
-import OverviewComponent from './components/overview/overview_component';
+import HeadComponent from './components/head/headComponent';
+import OverviewComponent from './components/overview/overviewComponent';
 
 export default function ProfileSection () {
     return (

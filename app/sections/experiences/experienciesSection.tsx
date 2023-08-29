@@ -1,7 +1,7 @@
 import Experiencies from './data/experiencies.json';
 import { Description } from '@interfaces/description'
-import TitleComponent from "@components/title/title_component"
-import DescriptionComponent from '@components/description/description_component';
+import TitleComponent from "@components/title/titleComponent"
+import DescriptionComponent from '@components/description/descriptionComponent';
 
 export default function ExperienceSection () {
     const experiences: Description[] = Experiencies

@@ -1,5 +1,3 @@
-import Me from '@assets/me.jpg'
-
 export default function HeadComponent () {
     return (
         <div className="flex items-center justify-between container">

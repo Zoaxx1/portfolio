@@ -1,7 +1,6 @@
 import { OVERVIEW } from './translates/es.json';
 
 export default function OverviewComponent () {
-
     return (
         <div className='grid grid-rows-auto gap-6 text-gray-200 text-md'>
             <p>{OVERVIEW.PARAGRAPH.FIRST}</p>

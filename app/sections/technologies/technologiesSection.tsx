@@ -1,8 +1,8 @@
 import { TECHNOLOGIES } from './translates/es.json';
 import Technologies from './data/technologies.json';
 import { TechnologiesSkills } from './interfaces/interfaces';
-import SkillsComponent from './components/skills_component';
-import TitleComponent from '@components/title/title_component';
+import SkillsComponent from './components/skillsComponent';
+import TitleComponent from '@components/title/titleComponent';
 
 export default function TechnologiesSection () {
     const technologies: TechnologiesSkills[] = Technologies;

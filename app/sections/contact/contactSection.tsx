@@ -1,4 +1,4 @@
-import TitleComponent from '@components/title/title_component';
+import TitleComponent from '@components/title/titleComponent';
 
 interface Contact {
     title: string,
