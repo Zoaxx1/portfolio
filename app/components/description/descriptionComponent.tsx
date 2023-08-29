@@ -7,11 +7,11 @@ export default function DescriptionComponent ({description}: ChildDescriptionPro
                 <p className="text-cyan-500 mr-5">{description.title}</p>
                 <p>{description.company}</p>
             </div>
-            <p className="text-sm opacity-60 my-1">{`${description.start_date} - ${description.is_present ? 'Presente' : description.last_date}`}</p>
+            <p className="text-sm opacity-60 my-1">{`${description.startDate} - ${description.isPresent ? 'Presente' : description.lastDate}`}</p>
             {
                 Array.isArray(description.description) ?
                 description.description.map((des, i) => <p key={i}>{des}</p>) :
-                description.is_description_url ?
+                description.isDescriptionUrl ?
                 <a className='text-cyan-200 underline' href={description.description} target='_blank' >{description.description}</a> :
                 <p>{description.description}</p>
             }

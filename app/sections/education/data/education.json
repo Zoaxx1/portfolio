@@ -2,31 +2,31 @@
     {
         "title": "Angular Developer",
         "company": "Udemy, Fernando Herrera",
-        "start_date": "2021 Jul",
-        "is_present": true,
+        "startDate": "2021 Jul",
+        "isPresent": true,
         "description": "Curso Angular: Desde TypeScript hasta desarrollo de aplicaciones completas. Componentes, rutas, autenticación, mapas, APIs, estilos y más. Habilidades para crear y comprender aplicaciones, siguiendo estándares del framework."
     },
     {
         "title": "Full Stack Developer",
         "company": "Henry",
-        "start_date": "2020 Jun",
-        "last_date": "2020 Oct",
+        "startDate": "2020 Jun",
+        "lastDate": "2020 Oct",
         "description": "Formado en habilidades de desarrollo frontend y backend en 2020 como Fullstack Developer. Poseo experiencia en tecnologías como HTML, CSS, JavaScript, React, Node.js, Express y MongoDB. Capacidad demostrada para diseñar, desarrollar y lanzar aplicaciones web completas, con habilidades en resolución de problemas y colaboración en equipos de desarrollo."
     },
     {
         "title": "Analisis, Desarrollo y Programación de Aplicaciones",
         "company": "Instituto Superior de Estudios Técnicos (I.S.E.T.)",
-        "start_date": "2019 Mar",
-        "last_date": "2020 May",
+        "startDate": "2019 Mar",
+        "lastDate": "2020 May",
         "ubication": "Mar del Plata",
-        "is_description_url": true,
+        "isDescriptionUrl": true,
         "description": "https://iset-bue.infd.edu.ar/sitio/catalogo/programacion/"
     },
     {
         "title": "Desarrollo de Páginas Web HTTML/CSS",
         "company": "Escuela de Formación Profesional Nº401",
-        "start_date": "2018 Sep",
-        "last_date": "2018 Nov",
+        "startDate": "2018 Sep",
+        "lastDate": "2018 Nov",
         "ubication": "Mar del Plata"
     }
 ]

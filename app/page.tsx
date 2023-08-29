@@ -1,5 +1,5 @@
 import NavBarComponent from "@components/navbar/navbarComponent";
-import ProfileSection from "@sections/profile/profile_section";
+import ProfileSection from "@sections/profile/profilesSection";
 import TechnologiesSection from "@sections/technologies/technologiesSection";
 import ExperienceSection from "@sections/experiences/experienciesSection";
 import EducationSection from "@sections/education/educationSection";
