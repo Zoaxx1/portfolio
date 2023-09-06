@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://zoaxx1.github.io/portfolio/app",
   "scripts": {
+    "export": "next build && next export",
     "deploy": "npm run build && gh-pages -d build",
     "dev": "next dev",
     "build": "next build",
