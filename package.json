@@ -2,7 +2,7 @@
   "name": "website-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://zoaxx1.github.io/portfolio",
+  "homepage": "https://zoaxx1.github.io/portfolio/app",
   "scripts": {
     "deploy": "npm run build && gh-pages -d build",
     "dev": "next dev",
