@@ -4,7 +4,7 @@ import TechnologiesSection from "@sections/technologies/technologiesSection";
 import ExperienceSection from "@sections/experiences/experienciesSection";
 import EducationSection from "@sections/education/educationSection";
 import ContactSection from "@sections/contact/contactSection";
-
+import ProjectSection from "@sections/projects/projectsSection";
 
 export default function Home() {
   return (
@@ -15,10 +15,12 @@ export default function Home() {
         <ContactSection></ContactSection>
         <TechnologiesSection></TechnologiesSection>
         <ExperienceSection></ExperienceSection>
+        <EducationSection></EducationSection>
         <div>
-          <div id='education'></div>
-          <EducationSection></EducationSection>
+          <div id='projects'></div>
+          <ProjectSection></ProjectSection>
         </div>
+        
       </div>
     </main>
   )

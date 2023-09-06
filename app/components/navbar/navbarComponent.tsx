@@ -42,6 +42,10 @@ export default function NavbarComponent () {
   {
     name: 'Educación',
     idElement: 'education'
+  },
+  {
+    name: 'Proyectos',
+    idElement: 'projects'
   }];
 
   const setStyle = (index: number): string=> {
